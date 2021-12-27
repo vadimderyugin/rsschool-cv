@@ -86,7 +86,7 @@ h6 {
 	font-weight: 400;
 }
 /*=============================MEDIA=======================================*/
-
+@import "media.css";
 /*=============================FONTS=======================================*/
 
 /*font-family: 'Lato', sans-serif;
@@ -136,4 +136,12 @@ body {
 
 .header__menu-link {
 	color: #fff;
+}
+
+/*=============================DEVELOPER=======================================*/
+
+.developer__img {
+	width: 200px;
+	border-radius: 50%;
+	overflow: hidden;
 }
