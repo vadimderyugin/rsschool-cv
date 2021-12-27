@@ -140,8 +140,44 @@ body {
 
 /*=============================DEVELOPER=======================================*/
 
+.developer__wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 70px 0;
+}
+
 .developer__img {
 	width: 200px;
 	border-radius: 50%;
 	overflow: hidden;
+}
+
+.developer__name {
+	text-align: center;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-weight: 400;
+	color: #000561;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+.developer__name::after {
+	content: "";
+	position: absolute;
+	height: 2px;
+	width: 50%;
+	transform: translateX(50%);
+	left: 0;
+	bottom: 0;
+	background-color: #3888ff;
+}
+
+.developer__level {
+	text-align: center;
+	padding-top: 30px;
+	color: #000561;
 }
