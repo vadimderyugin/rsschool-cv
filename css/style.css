@@ -139,8 +139,11 @@ body {
 }
 
 /*=============================DEVELOPER=======================================*/
-
 .developer__wrap {
+	border-bottom: 10px solid #3888ff;
+}
+
+.developer__items {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
