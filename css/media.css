@@ -1,0 +1,36 @@
+@media (max-width: 676px) {
+	.developer__items {
+		flex-direction: column;
+	}
+	.developer__img {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 480px) {
+	.header__menu-list {
+		flex-direction: column;
+	}
+	.header__menu-list li + li {
+		margin: 30px 0 0 0;
+	}
+	.developer__items {
+		padding: 30px 10px;
+	}
+	.info__inner-contacts-item a {
+		font-size: 15px;
+	}
+	.info__inner-skils-item {
+		line-height: 170%;
+	}
+	.info__inner-code {
+		font-size: 12px;
+	}
+	.footer__info {
+		flex-direction: column;
+		align-items: start;
+	}
+	.footer__info-rsschool-logo {
+		margin-top: 50px;
+	}
+}
