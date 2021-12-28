@@ -147,7 +147,24 @@ body {
 }
 
 .header__menu-link {
+	position: relative;
 	color: #d9e4ff;
+}
+
+.header__menu-link::after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background-color: #d9e4ff;
+	transform: scaleX(0);
+	transition: all 0.3s;
+}
+.header__menu-link:hover::after {
+	content: "";
+	transform: scaleX(1);
 }
 
 /*=============================DEVELOPER=======================================*/
@@ -287,6 +304,27 @@ body {
 	left: 0;
 }
 
+.info__inner-link {
+	position: relative;
+}
+
+.info__inner-link::after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background-color: #3888ff;
+	transform: scaleX(0);
+	transition: all 0.3s;
+}
+
+.info__inner-link:hover::after {
+	content: "";
+	background-color: #3888ff;
+	transform: scaleX(1);
+}
 /*=============================FOOTER=======================================*/
 
 .footer__info-rsschool-img {
@@ -310,8 +348,25 @@ body {
 	display: flex;
 }
 .footer__info-github {
+	position: relative;
 	margin-left: 20px;
 	color: #d9e4ff;
+}
+.footer__info-github::after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	height: 2px;
+	width: 100%;
+	background-color: #d9e4ff;
+	transform: scaleX(0);
+	transition: all 0.3s;
+}
+
+.footer__info-github:hover::after {
+	content: "";
+	transform: scaleX(1);
 }
 
 .footer__info-rsschool-logo {
