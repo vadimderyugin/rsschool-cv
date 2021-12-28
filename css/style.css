@@ -107,7 +107,6 @@ body {
 	display: flex;
 	flex-direction: column;
 	background: #d9e4ff;
-	padding: 0 15px;
 }
 
 .main {
@@ -203,6 +202,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	margin-bottom: 50px;
 }
 
 .info__inner {
@@ -232,3 +232,26 @@ body {
 }
 
 /*=============================FOOTER=======================================*/
+
+.footer__info-rsschool-img {
+	width: 50%;
+}
+
+.footer__block {
+	background-color: #3888ff;
+}
+
+.footer__info {
+	padding: 30px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer__info-link {
+	display: flex;
+}
+.footer__info-github {
+	margin-left: 20px;
+	color: #d9e4ff;
+}
