@@ -16,3 +16,12 @@ Hi, my name is Vadim and I'm a novice frontend developer, I like to learn someth
 function sumDigits(number) {
 	return Math.abs(number).toString().split('').reduce((a, b) => +a + +b,0)
 }
+```
+
+## ***Experiance:***
+- Solving simple problems at www.codewars.com
+## ***Education:***
+- RSSchool Pre-School 2022q4 
+- Stage1 2023q1 (1\3)
+## ***English:***
+- A1
