@@ -278,3 +278,77 @@ li:last-child {
 	padding-top: 5rem;
 	border-right: 3px solid var(--orange);
 }
+
+/*===================!example===========================*/
+.example {
+	padding-top: 5rem;
+}
+
+/*===================!projects===========================*/
+.projects {
+	padding-top: 5rem;
+	padding-bottom: 2.5rem;
+}
+
+.projects__title {
+	padding-bottom: 2.5rem;
+}
+
+.projects__link:hover {
+	text-decoration: underline;
+}
+
+/*===================!footer===========================*/
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 5rem 0;
+	border-top: 3px solid var(--orange);
+}
+
+.footer p {
+	margin: 0 8rem;
+	color: var(--orange);
+}
+
+.footer__github a::before {
+	content: '';
+	background-image: url(./images/github-ffoter.svg);
+	background-repeat: no-repeat;
+	width: 61px;
+	height: 59px;
+	display: inline-block;
+	transition: 0.3s ease;
+}
+
+.footer__github a:hover::before {
+	content: '';
+	background-image: url(./images/github-ffoter-blur.svg);
+	background-repeat: no-repeat;
+	width: 61px;
+	height: 59px;
+	display: inline-block;
+	filter: drop-shadow(0 0 15px rgba(255, 214, 0, 1));
+}
+
+.footer__rss a::before {
+	content: '';
+	background-image: url(./images/rss.svg);
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 61px;
+	display: inline-block;
+	transition: 0.3s ease;
+}
+
+.footer__rss a:hover::before {
+	content: '';
+	background-image: url(./images/rss-blur.svg);
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 61px;
+	display: inline-block;
+	filter: drop-shadow(0 0 15px rgba(255, 214, 0, 1));
+}
