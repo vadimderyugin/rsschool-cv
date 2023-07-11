@@ -270,6 +270,12 @@ li:last-child {
 	padding-top: 5rem;
 	border-right: 3px solid var(--orange);
 }
+.skills__list {
+	list-style: none;
+}
+.skills__list li {
+	padding-top: 25px;
+}
 
 
 /*===================!languages===========================*/
